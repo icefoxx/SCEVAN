@@ -119,6 +119,7 @@ preprocessingMtx <- function(count_mtx, sample, ngenes_chr=5, perc_genes=0.1, pa
   if(organism == "human"){
     totChr <- 22
     cellcycle <- reactome_cellcycle #From EnsDb.Hsapiens.v86
+    View(reactome_cellcycle)
   }else{
     totChr <- 19
     cellcycle <- reactome_cellcycle_Mmusculus #From EnsDb.Hsapiens.v86
